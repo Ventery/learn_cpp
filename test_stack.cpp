@@ -19,8 +19,8 @@ A func()
 }
 int main()
 {
-	func();
-//	A main_tmp=func();
-//	cout<<&main_tmp<<endl;
+//	func();
+	A main_tmp=func();
+	cout<<&main_tmp<<endl;
 	return 0;
 }
